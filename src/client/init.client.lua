@@ -17,3 +17,6 @@ print("Vortex Loading...")
 ]]
 local utils = require(script.Vortex.utils.Utils)
 utils.init()
+
+-- _G.import(script, "./Vortex/../Utils")
+_G.import(script, "./Vortex")
